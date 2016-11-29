@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>inUI - 基础组件</title>
+
+	<link rel="stylesheet" href="../css/inui.css">
+	<link rel="stylesheet" href="../css/doc.css">
+</head>
+<body>
+
+<div class="header_container">
+	<div class="wrap">
+		<h1 class="logo"><a href="../html/index.html">inUI</a></h1>
+
+		<div class="nav">
+			<ul>
+				<li><a href="../html/index.html">首页</a></li>
+				<li class="active"><a href="../components/index.html">基础组件</a></li>
+				<li><a href="../extends/index.html">拓展组件</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="main_container">
+	<div class="wrap col_row no_gutter">
+		<div class="col_80">
+			<h2>基础组件</h2>
+
+			<p>提供的基础组件，每一个组件都有使用说明及演示效果。</p>
+		</div>
+
+		<div class="col_20">
+			<div class="menus">
+				<ul>
+					<li class="active"><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+					<li><a href="../components/base/base.html">公共样式</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer_container">
+	<div class="wrap">
+		<p class="crp">@author 硬蛋-web前端团队</p>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+// 页面基本结构
+
+// 声明 - ui主题、字体颜色线条
+@import "../base/variables.less";
+
+// 声明 - 常用的公共样式
+@import "../base/mixins.less";
+
+.header_container,
+.main_container,
+.footer_container{
+	.clearfix();
+}
+
+
+// 头部
+// 默认logo 与 导航 在左右浮动
+.header_container{
+	height: 64px;
+
+	.logo{
+		float: left;
+	}
+
+	.nav{
+		float: right;
+
+		padding-top: 13px;
+	}
+}

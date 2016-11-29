@@ -1,0 +1,29 @@
+// 导航
+
+// 声明 - ui主题、字体颜色线条
+@import "../base/variables.less";
+
+// 混合项 - 常用的公共样式
+@import "../base/mixins.less";
+
+
+// 默认在右侧浮动
+.nav{
+	ul{
+		padding: 10px 0;
+		
+		.clearfix();
+	}
+
+	li{
+		float: left;
+
+		margin-left: 15px;
+	}
+
+	.active{
+		a{
+			color: @color_primary_active;
+		}
+	}
+}

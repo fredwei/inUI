@@ -1,0 +1,52 @@
+// 混合，常用的公共样式
+
+// 清除浮动
+.clearfix() {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+        line-height: 0;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+// 启用GPU硬件加速
+.preserve3d() {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+// 宽高
+.size(@w, @h) {
+  width: @w;
+  height: @h;
+}
+
+
+// 占位符颜色
+.placeholder(@color: @placeholderText) {
+  &:-moz-placeholder {
+    color: @color;
+  }
+  &:-ms-input-placeholder {
+    color: @color;
+  }
+  &::-webkit-input-placeholder {
+    color: @color;
+  }
+}
+
+
+// 文本溢出加省略号
+.text_overflow() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

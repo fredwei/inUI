@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>inUI</title>
+
+	<link rel="stylesheet" href="../css/inui.css">
+	<link rel="stylesheet" href="../css/doc.css">
+</head>
+<body>
+
+<div id="main">
+
+	<tpl-headercontainer></tpl-headercontainer>
+
+	<div class="main_container">
+		<div class="banner">
+			<h2>不简单、不易用、功能也不强大的UI库</h2>
+			<p>合适的才是好用的</p>
+		</div>
+	</div>
+
+	<tpl-footercontainer></tpl-footercontainer>
+
+</div>
+
+<script>
+	// 栏目配置
+	var iGlobal = {
+		catname: 'index'
+	};
+</script>
+<script src="https://cdn.staticfile.org/vue/2.0.5/vue.min.js"></script>
+<script src="../js/tpl.js"></script>
+<script src="../js/doc.js"></script>
+</body>
+</html>

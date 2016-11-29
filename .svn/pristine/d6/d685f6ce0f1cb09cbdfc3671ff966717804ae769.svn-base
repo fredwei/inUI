@@ -1,0 +1,67 @@
+// 变量
+// 声明ui主题
+// 包含 字体大小、颜色、行高、线条颜色、背景色等
+
+// 字体
+// --------------------------------------------------
+@font_family_default: "Microsoft YaHei", Helvetica, "STHeiti STXihei", "Microsoft JhengHei", Tohoma, Arial, sans-serif;
+@font_size_default: 14px;
+@font_size_Large: 16px;
+@font_size_XLarge: 18px;
+@font_size_XXLarge: 20px;
+@font_weight: 500;
+@font_weight_light: 400;
+@line_height_default: 1.8;
+
+
+
+// 颜色 Start 
+// --------------------------------------------------
+
+
+// 主色
+@color_primary: #333; // 默认
+@color_danger: #f00; // 危险
+@color_warning: #f60; // 警告
+@color_success: #1bb371; // 成功
+
+
+@color_primary_active: #f44d37;
+@color_danger_active: darken(@color_danger, 10%);
+@color_warning_active: darken(@color_warning, 10%);
+@color_success_active: darken(@color_success, 10%);
+
+
+@color_split: #d3d3d3;  //分割线的颜色
+@color_bg: #fff; // 背景色
+@color_bg_gray: #e1e1e1; // 背景灰色
+@color_text: #333; //文案色
+@color_text_secondary: #666; //次级文案
+@color_text_gray: #999; //灰色文案
+@color_text_gray_light: #ccc; //更灰色文案
+
+
+// --------------------------------------------------
+// 颜色 End
+
+
+// Buttons
+// --------------------------------------------------
+
+@button_font_size: @font_size_default;
+
+
+// 过渡值
+// --------------------------------------------------
+
+@timing_fuction: cubic-bezier(.1,.5,.1,1);
+
+
+
+// 线条
+// --------------------------------------------------
+
+@border_default_width: 1px;
+@border_default_color: @color_split;
+@border_default: @border_default_width solid @border_default_color;
+@border_radius: 0.3rem;

@@ -1,0 +1,25 @@
+
+// 声明 - ui主题、字体颜色线条
+@import "../base/variables.less";
+
+// 混合项 - 常用的公共样式
+@import "../base/mixins.less";
+
+
+
+.menus{
+	padding: 3px 0;
+	
+	border: @border_default;
+	border-radius: 2px;
+
+	a{
+		display: block;
+		padding: 3px 10px;
+	}
+	
+	.active a,
+	a:hover{
+		color: @color_primary_active;
+	}
+}
